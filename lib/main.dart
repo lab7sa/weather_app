@@ -12,7 +12,10 @@ class WeatherApp extends StatefulWidget {
 }
 
 class _WeatherAppState extends State<WeatherApp> {
-  String apiKey = '2f9db73a7e06c0763afd84b5c4f128a3';
+  //Create an account at https://openweathermap.org/
+  //then remove XXXXXXXXX and add you api key here
+  
+  String apiKey = 'XXXXXXXXX';
   var description;
   var temp;
   String city;
